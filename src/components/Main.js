@@ -7,7 +7,7 @@ class Main extends Component {
     return (
       <div className="container-fluid mt-5">
         <div className="row">
-          <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '500px' }}>
+          <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '1000px' }}>
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
               <h2>Share Image</h2>
@@ -30,7 +30,7 @@ class Main extends Component {
                 <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
               </form>
               <p>&nbsp;</p>
-                
+                <section className="Image-grid">
                 { this.props.images.map((image, key) => {
                 return(
                   <div className="card mb-4" key={key} >
@@ -45,7 +45,7 @@ class Main extends Component {
                     </div>
                     <ul id="imageList" className="list-group list-group-flush">
                       <li className="list-group-item">
-                        <p className="text-center"><img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}}/></p>
+                        <p className="text-center"><img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '400px', padding: '50'}}/></p>
                         <p>{image.description}</p>
                       </li>
                       <li key={key} className="list-group-item py-2">
@@ -68,7 +68,7 @@ class Main extends Component {
                   </div>
                 )
               })}
-
+          </section>
             </div>
           </main>
         </div>

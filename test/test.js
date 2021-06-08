@@ -5,15 +5,15 @@ require('chai')
   .should()
 
 contract('Decentragram', ([deployer, author, tipper]) => {
-  let decentragram
+  let Formula
 
   before(async () => {
-    decentragram = await Decentragram.deployed()
+    Formula = await Decentragram.deployed()
   })
 
   describe('deployment', async () => {
     it('deploys successfully', async () => {
-      const address = await decentragram.address
+      const address = await Formula.address
       assert.notEqual(address, 0x0)
       assert.notEqual(address, '')
       assert.notEqual(address, null)
@@ -21,7 +21,7 @@ contract('Decentragram', ([deployer, author, tipper]) => {
     })
 
     it('has a name', async () => {
-      const name = await decentragram.name()
+      const name = await Formula.name()
       assert.equal(name, 'Decentragram')
     })
   })
@@ -31,8 +31,8 @@ contract('Decentragram', ([deployer, author, tipper]) => {
     const hash = 'abc123'
 
   before(async () => {
-    result = await decentragram.uploadImage(hash, 'Image description', { from: author })
-    imageCount = await decentragram.imageCount()
+    result = await Formula.uploadImage(hash, 'Image description', { from: author })
+    imageCount = await Formula.imageCount()
   })
     //check event
     it('creates images', async () => {
@@ -47,15 +47,15 @@ contract('Decentragram', ([deployer, author, tipper]) => {
     
 
     // FAILURE: Image must have hash
-      await decentragram.uploadImage('', 'Image description', { from: author }).should.be.rejected;
+      await Formula.uploadImage('', 'Image description', { from: author }).should.be.rejected;
 
     // FAILURE: Image must have description
-      await decentragram.uploadImage('Image hash', '', { from: author }).should.be.rejected;
+      await Formula.uploadImage('Image hash', '', { from: author }).should.be.rejected;
     })
 
     // check from Struct
     it('lists images', async () => {
-      const image = await decentragram.images(imageCount)
+      const image = await Formula.images(imageCount)
       assert.equal(image.id.toNumber(), imageCount.toNumber(), 'id is correct')
       assert.equal(image.hash, hash, 'Hash is correct')
       assert.equal(image.description, 'Image description', 'description is correct')
@@ -69,7 +69,7 @@ contract('Decentragram', ([deployer, author, tipper]) => {
       oldAuthorBalance = await web3.eth.getBalance(author)
       oldAuthorBalance = new web3.utils.BN(oldAuthorBalance)
 
-      result = await decentragram.tipImageOwner(imageCount, { from: tipper, value: web3.utils.toWei('1', 'Ether') })
+      result = await Formula.tipImageOwner(imageCount, { from: tipper, value: web3.utils.toWei('1', 'Ether') })
 
       // SUCCESS
       const event = result.logs[0].args
@@ -93,7 +93,7 @@ contract('Decentragram', ([deployer, author, tipper]) => {
       assert.equal(newAuthorBalance.toString(), expectedBalance.toString())
 
       // FAILURE: Tries to tip a image that does not exist
-      await decentragram.tipImageOwner(99, { from: tipper, value: web3.utils.toWei('1', 'Ether')}).should.be.rejected;
+      await Formula.tipImageOwner(99, { from: tipper, value: web3.utils.toWei('1', 'Ether')}).should.be.rejected;
     })
   })
 })
