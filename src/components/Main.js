@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
 
+
+
 class Main extends Component {
 
   render() {
@@ -31,6 +33,7 @@ class Main extends Component {
               </form>
               <p>&nbsp;</p>
                 <section className="Image-grid">
+                
                 { this.props.images.map((image, key) => {
                 return(
                   <div className="card mb-4" key={key} >

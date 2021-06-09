@@ -182,17 +182,17 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"hash\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tipAmount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address payable\",\"name\":\"author\",\"type\":\"address\"}],\"name\":\"ImageCreated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"hash\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tipAmount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address payable\",\"name\":\"author\",\"type\":\"address\"}],\"name\":\"ImageTipped\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[],\"name\":\"imageCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"images\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"hash\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"tipAmount\",\"type\":\"uint256\"},{\"internalType\":\"address payable\",\"name\":\"author\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_id\",\"type\":\"uint256\"}],\"name\":\"tipImageOwner\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_imageHash\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_description\",\"type\":\"string\"}],\"name\":\"uploadImage\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Francis/Desktop/Formula/src/contracts/Decentragram.sol\":\"Decentragram\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Francis/Desktop/Formula/src/contracts/Decentragram.sol\":{\"keccak256\":\"0x3f48a1fa154257e805c13db2a8126027e7d4f27e207a44326c4b0b1642b3bd9b\",\"urls\":[\"bzz-raw://a723e5fa7aaa055f354e062776123565d361208c8dd67b2f48223ca3eb566850\",\"dweb:/ipfs/QmPBsaT1B1rquyKXvvsoPiqGqbgXyc55MYAmve5CC5HfRz\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"hash\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tipAmount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address payable\",\"name\":\"author\",\"type\":\"address\"}],\"name\":\"ImageCreated\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"hash\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"tipAmount\",\"type\":\"uint256\"},{\"indexed\":false,\"internalType\":\"address payable\",\"name\":\"author\",\"type\":\"address\"}],\"name\":\"ImageTipped\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[],\"name\":\"imageCount\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"images\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"hash\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"tipAmount\",\"type\":\"uint256\"},{\"internalType\":\"address payable\",\"name\":\"author\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_id\",\"type\":\"uint256\"}],\"name\":\"tipImageOwner\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"string\",\"name\":\"_imageHash\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"_description\",\"type\":\"string\"}],\"name\":\"uploadImage\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/Francis/Desktop/Formula/src/contracts/Formula.sol\":\"Formula\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/Francis/Desktop/Formula/src/contracts/Formula.sol\":{\"keccak256\":\"0x3f48a1fa154257e805c13db2a8126027e7d4f27e207a44326c4b0b1642b3bd9b\",\"urls\":[\"bzz-raw://a723e5fa7aaa055f354e062776123565d361208c8dd67b2f48223ca3eb566850\",\"dweb:/ipfs/QmPBsaT1B1rquyKXvvsoPiqGqbgXyc55MYAmve5CC5HfRz\"]}},\"version\":1}",
   "bytecode": "0x60806040526040518060400160405280600c81526020017f446563656e7472616772616d00000000000000000000000000000000000000008152506000908051906020019061004f929190610067565b50600060015534801561006157600080fd5b5061010c565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a857805160ff19168380011785556100d6565b828001600101855582156100d6579182015b828111156100d55782518255916020019190600101906100ba565b5b5090506100e391906100e7565b5090565b61010991905b808211156101055760008160009055506001016100ed565b5090565b90565b610e458061011b6000396000f3fe60806040526004361061004a5760003560e01c806306fdde031461004f57806384856482146100df5780638567ade81461024057806392053b631461026e578063a91b831414610299575b600080fd5b34801561005b57600080fd5b506100646103f8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a4578082015181840152602081019050610089565b50505050905090810190601f1680156100d15780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100eb57600080fd5b506101186004803603602081101561010257600080fd5b8101908080359060200190929190505050610496565b6040518086815260200180602001806020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838103835287818151815260200191508051906020019080838360005b8381101561019a57808201518184015260208101905061017f565b50505050905090810190601f1680156101c75780820380516001836020036101000a031916815260200191505b50838103825286818151815260200191508051906020019080838360005b838110156102005780820151818401526020810190506101e5565b50505050905090810190601f16801561022d5780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390f35b61026c6004803603602081101561025657600080fd5b810190808035906020019092919050505061061c565b005b34801561027a57600080fd5b50610283610a77565b6040518082815260200191505060405180910390f35b3480156102a557600080fd5b506103f6600480360360408110156102bc57600080fd5b81019080803590602001906401000000008111156102d957600080fd5b8201836020820111156102eb57600080fd5b8035906020019184600183028401116401000000008311171561030d57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192908035906020019064010000000081111561037057600080fd5b82018360208201111561038257600080fd5b803590602001918460018302840111640100000000831117156103a457600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610a7d565b005b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561048e5780601f106104635761010080835404028352916020019161048e565b820191906000526020600020905b81548152906001019060200180831161047157829003601f168201915b505050505081565b6002602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105485780601f1061051d57610100808354040283529160200191610548565b820191906000526020600020905b81548152906001019060200180831161052b57829003601f168201915b505050505090806002018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105e65780601f106105bb576101008083540402835291602001916105e6565b820191906000526020600020905b8154815290600101906020018083116105c957829003601f168201915b5050505050908060030154908060040160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905085565b60008111801561062e57506001548111155b61063757600080fd5b61063f610d26565b600260008381526020019081526020016000206040518060a001604052908160008201548152602001600182018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107005780601f106106d557610100808354040283529160200191610700565b820191906000526020600020905b8154815290600101906020018083116106e357829003601f168201915b50505050508152602001600282018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107a25780601f10610777576101008083540402835291602001916107a2565b820191906000526020600020905b81548152906001019060200180831161078557829003601f168201915b50505050508152602001600382015481526020016004820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152505090506000816080015190508073ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015801561085c573d6000803e3d6000fd5b503482606001510182606001818152505081600260008581526020019081526020016000206000820151816000015560208201518160010190805190602001906108a7929190610d6b565b5060408201518160020190805190602001906108c4929190610d6b565b506060820151816003015560808201518160040160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050507f1be5317bca8d3f70dc1efe89958be71bff36cdca33fc00a6423e25eb2f1d492f83836020015184604001518560600151856040518086815260200180602001806020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838103835287818151815260200191508051906020019080838360005b838110156109cd5780820151818401526020810190506109b2565b50505050905090810190601f1680156109fa5780820380516001836020036101000a031916815260200191505b50838103825286818151815260200191508051906020019080838360005b83811015610a33578082015181840152602081019050610a18565b50505050905090810190601f168015610a605780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390a1505050565b60015481565b6000825111610a8b57600080fd5b6000815111610a9957600080fd5b600073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610ad357600080fd5b6001600081548092919060010191905055506040518060a001604052806001548152602001838152602001828152602001600081526020013373ffffffffffffffffffffffffffffffffffffffff16815250600260006001548152602001908152602001600020600082015181600001556020820151816001019080519060200190610b60929190610d6b565b506040820151816002019080519060200190610b7d929190610d6b565b506060820151816003015560808201518160040160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050507fc1d8dfa99b3f84f95d3f0bc4a768addeb97b83b20aef7f9cb6729e126bafd2f960015483836000336040518086815260200180602001806020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838103835287818151815260200191508051906020019080838360005b83811015610c7d578082015181840152602081019050610c62565b50505050905090810190601f168015610caa5780820380516001836020036101000a031916815260200191505b50838103825286818151815260200191508051906020019080838360005b83811015610ce3578082015181840152602081019050610cc8565b50505050905090810190601f168015610d105780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390a15050565b6040518060a0016040528060008152602001606081526020016060815260200160008152602001600073ffffffffffffffffffffffffffffffffffffffff1681525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10610dac57805160ff1916838001178555610dda565b82800160010185558215610dda579182015b82811115610dd9578251825591602001919060010190610dbe565b5b509050610de79190610deb565b5090565b610e0d91905b80821115610e09576000816000905550600101610df1565b5090565b9056fea265627a7a72315820c8067377c7fd7283a878e840d0db19115adad2d1ae042d256edda09b58ac096c64736f6c63430005100032",
   "deployedBytecode": "0x60806040526004361061004a5760003560e01c806306fdde031461004f57806384856482146100df5780638567ade81461024057806392053b631461026e578063a91b831414610299575b600080fd5b34801561005b57600080fd5b506100646103f8565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100a4578082015181840152602081019050610089565b50505050905090810190601f1680156100d15780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100eb57600080fd5b506101186004803603602081101561010257600080fd5b8101908080359060200190929190505050610496565b6040518086815260200180602001806020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838103835287818151815260200191508051906020019080838360005b8381101561019a57808201518184015260208101905061017f565b50505050905090810190601f1680156101c75780820380516001836020036101000a031916815260200191505b50838103825286818151815260200191508051906020019080838360005b838110156102005780820151818401526020810190506101e5565b50505050905090810190601f16801561022d5780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390f35b61026c6004803603602081101561025657600080fd5b810190808035906020019092919050505061061c565b005b34801561027a57600080fd5b50610283610a77565b6040518082815260200191505060405180910390f35b3480156102a557600080fd5b506103f6600480360360408110156102bc57600080fd5b81019080803590602001906401000000008111156102d957600080fd5b8201836020820111156102eb57600080fd5b8035906020019184600183028401116401000000008311171561030d57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192908035906020019064010000000081111561037057600080fd5b82018360208201111561038257600080fd5b803590602001918460018302840111640100000000831117156103a457600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f820116905080830192505050505050509192919290505050610a7d565b005b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561048e5780601f106104635761010080835404028352916020019161048e565b820191906000526020600020905b81548152906001019060200180831161047157829003601f168201915b505050505081565b6002602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105485780601f1061051d57610100808354040283529160200191610548565b820191906000526020600020905b81548152906001019060200180831161052b57829003601f168201915b505050505090806002018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156105e65780601f106105bb576101008083540402835291602001916105e6565b820191906000526020600020905b8154815290600101906020018083116105c957829003601f168201915b5050505050908060030154908060040160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905085565b60008111801561062e57506001548111155b61063757600080fd5b61063f610d26565b600260008381526020019081526020016000206040518060a001604052908160008201548152602001600182018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107005780601f106106d557610100808354040283529160200191610700565b820191906000526020600020905b8154815290600101906020018083116106e357829003601f168201915b50505050508152602001600282018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156107a25780601f10610777576101008083540402835291602001916107a2565b820191906000526020600020905b81548152906001019060200180831161078557829003601f168201915b50505050508152602001600382015481526020016004820160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152505090506000816080015190508073ffffffffffffffffffffffffffffffffffffffff166108fc349081150290604051600060405180830381858888f1935050505015801561085c573d6000803e3d6000fd5b503482606001510182606001818152505081600260008581526020019081526020016000206000820151816000015560208201518160010190805190602001906108a7929190610d6b565b5060408201518160020190805190602001906108c4929190610d6b565b506060820151816003015560808201518160040160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050507f1be5317bca8d3f70dc1efe89958be71bff36cdca33fc00a6423e25eb2f1d492f83836020015184604001518560600151856040518086815260200180602001806020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838103835287818151815260200191508051906020019080838360005b838110156109cd5780820151818401526020810190506109b2565b50505050905090810190601f1680156109fa5780820380516001836020036101000a031916815260200191505b50838103825286818151815260200191508051906020019080838360005b83811015610a33578082015181840152602081019050610a18565b50505050905090810190601f168015610a605780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390a1505050565b60015481565b6000825111610a8b57600080fd5b6000815111610a9957600080fd5b600073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610ad357600080fd5b6001600081548092919060010191905055506040518060a001604052806001548152602001838152602001828152602001600081526020013373ffffffffffffffffffffffffffffffffffffffff16815250600260006001548152602001908152602001600020600082015181600001556020820151816001019080519060200190610b60929190610d6b565b506040820151816002019080519060200190610b7d929190610d6b565b506060820151816003015560808201518160040160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055509050507fc1d8dfa99b3f84f95d3f0bc4a768addeb97b83b20aef7f9cb6729e126bafd2f960015483836000336040518086815260200180602001806020018581526020018473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001838103835287818151815260200191508051906020019080838360005b83811015610c7d578082015181840152602081019050610c62565b50505050905090810190601f168015610caa5780820380516001836020036101000a031916815260200191505b50838103825286818151815260200191508051906020019080838360005b83811015610ce3578082015181840152602081019050610cc8565b50505050905090810190601f168015610d105780820380516001836020036101000a031916815260200191505b5097505050505050505060405180910390a15050565b6040518060a0016040528060008152602001606081526020016060815260200160008152602001600073ffffffffffffffffffffffffffffffffffffffff1681525090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f10610dac57805160ff1916838001178555610dda565b82800160010185558215610dda579182015b82811115610dd9578251825591602001919060010190610dbe565b5b509050610de79190610deb565b5090565b610e0d91905b80821115610e09576000816000905550600101610df1565b5090565b9056fea265627a7a72315820c8067377c7fd7283a878e840d0db19115adad2d1ae042d256edda09b58ac096c64736f6c63430005100032",
   "sourceMap": "27:1705:0:-;;;54:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;119:1;94:26;;27:1705;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:1705:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
   "deployedSourceMap": "27:1705:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;54:35;;8:9:-1;5:2;;;30:1;27;20:12;5:2;54:35:0;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;54:35:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;125:36;;8:9:-1;5:2;;;30:1;27;20:12;5:2;125:36:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;125:36:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;125:36:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;125:36:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1121:606;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1121:606:0;;;;;;;;;;;;;;;;;:::i;:::-;;94:26;;8:9:-1;5:2;;;30:1;27;20:12;5:2;94:26:0;;;:::i;:::-;;;;;;;;;;;;;;;;;;;568:531;;8:9:-1;5:2;;;30:1;27;20:12;5:2;568:531:0;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;568:531:0;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;568:531:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;568:531:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;568:531:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;568:531:0;;;;;;;;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;568:531:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;568:531:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;568:531:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;568:531:0;;;;;;;;;;;;;;;:::i;:::-;;54:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;125:36::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;1121:606::-;1224:1;1218:3;:7;:28;;;;;1236:10;;1229:3;:17;;1218:28;1210:37;;;;;;1278:19;;:::i;:::-;1300:6;:11;1307:3;1300:11;;;;;;;;;;;1278:33;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1343:23;1369:6;:13;;;1343:39;;1442:7;1434:25;;:36;1460:9;1434:36;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1434:36:0;1548:9;1529:6;:16;;;:28;1510:6;:16;;:47;;;;;1602:6;1588;:11;1595:3;1588:11;;;;;;;;;;;:20;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1645:76;1657:3;1662:6;:11;;;1675:6;:18;;;1695:6;:16;;;1713:7;1645:76;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1645:76:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1645:76:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1121:606;;;:::o;94:26::-;;;;:::o;568:531::-;732:1;711:10;705:24;:28;697:37;;;;;;821:1;798:12;792:26;:30;784:39;;;;;;901:1;880:23;;:10;:23;;;;872:32;;;;;;913:10;;:13;;;;;;;;;;;;;956:58;;;;;;;;962:10;;956:58;;;;974:10;956:58;;;;986:12;956:58;;;;1000:1;956:58;;;;1003:10;956:58;;;;;935:6;:18;942:10;;935:18;;;;;;;;;;;:79;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1028:65;1041:10;;1053;1065:12;1079:1;1082:10;1028:65;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1028:65:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;1028:65:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;568:531;;:::o;27:1705::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Decentragram {\r\n  string public name = \"Decentragram\";\r\n  uint public imageCount = 0;\r\n  mapping(uint => Image) public images;\r\n  \r\n  struct Image {\r\n   uint id;\r\n   string hash;\r\n   string description;\r\n   uint tipAmount;\r\n   address payable author; \r\n  }\r\n\r\n   event ImageCreated (\r\n   uint id,\r\n   string hash,\r\n   string description,\r\n   uint tipAmount,\r\n   address payable author\r\n  );\r\n\r\n  event ImageTipped(\r\n    uint id,\r\n    string hash,\r\n    string description,\r\n    uint tipAmount,\r\n    address payable author\r\n  );\r\n\r\n  function uploadImage(string memory _imageHash, string memory _description) public {\r\n    // Make sure the image hash exists\r\n    require(bytes(_imageHash).length > 0);\r\n    // Make sure image description exists\r\n    require(bytes(_description).length > 0);\r\n    // Make sure uploader address exists\r\n    require(msg.sender!= address(0));\r\n\r\n    imageCount ++;\r\n\r\n    images[imageCount] = Image(imageCount, _imageHash, _description, 0, msg.sender);\r\n\r\n    emit ImageCreated(imageCount, _imageHash, _description, 0, msg.sender);\r\n  }\r\n\r\n  //Tip images\r\n  function tipImageOwner(uint _id) public payable {\r\n    // Make sure the id is valid\r\n    require(_id > 0 && _id <= imageCount);\r\n    // Fetch the image\r\n    Image memory _image = images[_id];\r\n    // Fetch the author\r\n    address payable _author = _image.author;\r\n    // Pay the author by sending them Ether\r\n    address(_author).transfer(msg.value);\r\n    // Increment the tip Amount\r\n    _image.tipAmount = _image.tipAmount + msg.value;\r\n    //update the image\r\n    images[_id] = _image;\r\n    // Trigger an event\r\n    emit ImageTipped(_id, _image.hash, _image.description, _image.tipAmount, _author);\r\n  }\r\n\r\n}\r\n",
-  "sourcePath": "C:/Users/Francis/Desktop/Formula/src/contracts/Decentragram.sol",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Formula {\r\n  string public name = \"Formula\";\r\n  uint public imageCount = 0;\r\n  mapping(uint => Image) public images;\r\n  \r\n  struct Image {\r\n   uint id;\r\n   string hash;\r\n   string description;\r\n   uint tipAmount;\r\n   address payable author; \r\n  }\r\n\r\n   event ImageCreated (\r\n   uint id,\r\n   string hash,\r\n   string description,\r\n   uint tipAmount,\r\n   address payable author\r\n  );\r\n\r\n  event ImageTipped(\r\n    uint id,\r\n    string hash,\r\n    string description,\r\n    uint tipAmount,\r\n    address payable author\r\n  );\r\n\r\n  function uploadImage(string memory _imageHash, string memory _description) public {\r\n    // Make sure the image hash exists\r\n    require(bytes(_imageHash).length > 0);\r\n    // Make sure image description exists\r\n    require(bytes(_description).length > 0);\r\n    // Make sure uploader address exists\r\n    require(msg.sender!= address(0));\r\n\r\n    imageCount ++;\r\n\r\n    images[imageCount] = Image(imageCount, _imageHash, _description, 0, msg.sender);\r\n\r\n    emit ImageCreated(imageCount, _imageHash, _description, 0, msg.sender);\r\n  }\r\n\r\n  //Tip images\r\n  function tipImageOwner(uint _id) public payable {\r\n    // Make sure the id is valid\r\n    require(_id > 0 && _id <= imageCount);\r\n    // Fetch the image\r\n    Image memory _image = images[_id];\r\n    // Fetch the author\r\n    address payable _author = _image.author;\r\n    // Pay the author by sending them Ether\r\n    address(_author).transfer(msg.value);\r\n    // Increment the tip Amount\r\n    _image.tipAmount = _image.tipAmount + msg.value;\r\n    //update the image\r\n    images[_id] = _image;\r\n    // Trigger an event\r\n    emit ImageTipped(_id, _image.hash, _image.description, _image.tipAmount, _author);\r\n  }\r\n\r\n}\r\n",
+  "sourcePath": "C:/Users/Francis/Desktop/Formula/src/contracts/Formula.sol",
   "ast": {
-    "absolutePath": "/C/Users/Francis/Desktop/Formula/src/contracts/Decentragram.sol",
+    "absolutePath": "/C/Users/Francis/Desktop/Formula/src/contracts/Formula.sol",
     "exportedSymbols": {
-      "Decentragram": [
+      "Formula": [
         169
       ]
     },
@@ -220,7 +220,7 @@
         "linearizedBaseContracts": [
           169
         ],
-        "name": "Decentragram",
+        "name": "Formula",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -260,9 +260,9 @@
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_483de360be352324e6ef7d99538d13af105db358291902b3c5b002f6928fdebc",
-                "typeString": "literal_string \"Decentragram\""
+                "typeString": "literal_string \"Formula\""
               },
-              "value": "Decentragram"
+              "value": "Formula"
             },
             "visibility": "public"
           },
@@ -320,7 +320,7 @@
             "storageLocation": "default",
             "typeDescriptions": {
               "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-              "typeString": "mapping(uint256 => struct Decentragram.Image)"
+              "typeString": "mapping(uint256 => struct Formula.Image)"
             },
             "typeName": {
               "id": 10,
@@ -338,7 +338,7 @@
               "src": "125:22:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                "typeString": "mapping(uint256 => struct Decentragram.Image)"
+                "typeString": "mapping(uint256 => struct Formula.Image)"
               },
               "valueType": {
                 "contractScope": null,
@@ -349,7 +349,7 @@
                 "src": "141:5:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Image_$22_storage_ptr",
-                  "typeString": "struct Decentragram.Image"
+                  "typeString": "struct Formula.Image"
                 }
               }
             },
@@ -357,7 +357,7 @@
             "visibility": "public"
           },
           {
-            "canonicalName": "Decentragram.Image",
+            "canonicalName": "Formula.Image",
             "id": 22,
             "members": [
               {
@@ -1304,7 +1304,7 @@
                         "src": "935:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                          "typeString": "mapping(uint256 => struct Decentragram.Image storage ref)"
+                          "typeString": "mapping(uint256 => struct Formula.Image storage ref)"
                         }
                       },
                       "id": 85,
@@ -1329,7 +1329,7 @@
                       "src": "935:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_storage",
-                        "typeString": "struct Decentragram.Image storage ref"
+                        "typeString": "struct Formula.Image storage ref"
                       }
                     },
                     "nodeType": "Assignment",
@@ -1455,7 +1455,7 @@
                         "src": "956:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Image_$22_storage_ptr_$",
-                          "typeString": "type(struct Decentragram.Image storage pointer)"
+                          "typeString": "type(struct Formula.Image storage pointer)"
                         }
                       },
                       "id": 93,
@@ -1469,13 +1469,13 @@
                       "src": "956:58:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory",
-                        "typeString": "struct Decentragram.Image memory"
+                        "typeString": "struct Formula.Image memory"
                       }
                     },
                     "src": "935:79:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Image_$22_storage",
-                      "typeString": "struct Decentragram.Image storage ref"
+                      "typeString": "struct Formula.Image storage ref"
                     }
                   },
                   "id": 95,
@@ -1885,7 +1885,7 @@
                       "storageLocation": "memory",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                        "typeString": "struct Decentragram.Image"
+                        "typeString": "struct Formula.Image"
                       },
                       "typeName": {
                         "contractScope": null,
@@ -1896,7 +1896,7 @@
                         "src": "1278:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Image_$22_storage_ptr",
-                          "typeString": "struct Decentragram.Image"
+                          "typeString": "struct Formula.Image"
                         }
                       },
                       "value": null,
@@ -1916,7 +1916,7 @@
                       "src": "1300:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                        "typeString": "mapping(uint256 => struct Decentragram.Image storage ref)"
+                        "typeString": "mapping(uint256 => struct Formula.Image storage ref)"
                       }
                     },
                     "id": 125,
@@ -1941,7 +1941,7 @@
                     "src": "1300:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Image_$22_storage",
-                      "typeString": "struct Decentragram.Image storage ref"
+                      "typeString": "struct Formula.Image storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
@@ -1993,7 +1993,7 @@
                       "src": "1369:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                        "typeString": "struct Decentragram.Image memory"
+                        "typeString": "struct Formula.Image memory"
                       }
                     },
                     "id": 130,
@@ -2157,7 +2157,7 @@
                         "src": "1510:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                          "typeString": "struct Decentragram.Image memory"
+                          "typeString": "struct Formula.Image memory"
                         }
                       },
                       "id": 142,
@@ -2199,7 +2199,7 @@
                           "src": "1529:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 144,
@@ -2283,7 +2283,7 @@
                         "src": "1588:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                          "typeString": "mapping(uint256 => struct Decentragram.Image storage ref)"
+                          "typeString": "mapping(uint256 => struct Formula.Image storage ref)"
                         }
                       },
                       "id": 152,
@@ -2308,7 +2308,7 @@
                       "src": "1588:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_storage",
-                        "typeString": "struct Decentragram.Image storage ref"
+                        "typeString": "struct Formula.Image storage ref"
                       }
                     },
                     "nodeType": "Assignment",
@@ -2323,13 +2323,13 @@
                       "src": "1602:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                        "typeString": "struct Decentragram.Image memory"
+                        "typeString": "struct Formula.Image memory"
                       }
                     },
                     "src": "1588:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Image_$22_storage",
-                      "typeString": "struct Decentragram.Image storage ref"
+                      "typeString": "struct Formula.Image storage ref"
                     }
                   },
                   "id": 155,
@@ -2365,7 +2365,7 @@
                           "src": "1662:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 159,
@@ -2394,7 +2394,7 @@
                           "src": "1675:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 161,
@@ -2423,7 +2423,7 @@
                           "src": "1695:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 163,
@@ -2568,9 +2568,9 @@
     "src": "0:1734:0"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/Francis/Desktop/Formula/src/contracts/Decentragram.sol",
+    "absolutePath": "/C/Users/Francis/Desktop/Formula/src/contracts/Formula.sol",
     "exportedSymbols": {
-      "Decentragram": [
+      "Formula": [
         169
       ]
     },
@@ -2598,7 +2598,7 @@
         "linearizedBaseContracts": [
           169
         ],
-        "name": "Decentragram",
+        "name": "Formula",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -2638,9 +2638,9 @@
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_stringliteral_483de360be352324e6ef7d99538d13af105db358291902b3c5b002f6928fdebc",
-                "typeString": "literal_string \"Decentragram\""
+                "typeString": "literal_string \"Formula\""
               },
-              "value": "Decentragram"
+              "value": "Formula"
             },
             "visibility": "public"
           },
@@ -2698,7 +2698,7 @@
             "storageLocation": "default",
             "typeDescriptions": {
               "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-              "typeString": "mapping(uint256 => struct Decentragram.Image)"
+              "typeString": "mapping(uint256 => struct Formula.Image)"
             },
             "typeName": {
               "id": 10,
@@ -2716,7 +2716,7 @@
               "src": "125:22:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                "typeString": "mapping(uint256 => struct Decentragram.Image)"
+                "typeString": "mapping(uint256 => struct Formula.Image)"
               },
               "valueType": {
                 "contractScope": null,
@@ -2727,7 +2727,7 @@
                 "src": "141:5:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_struct$_Image_$22_storage_ptr",
-                  "typeString": "struct Decentragram.Image"
+                  "typeString": "struct Formula.Image"
                 }
               }
             },
@@ -2735,7 +2735,7 @@
             "visibility": "public"
           },
           {
-            "canonicalName": "Decentragram.Image",
+            "canonicalName": "Formula.Image",
             "id": 22,
             "members": [
               {
@@ -3682,7 +3682,7 @@
                         "src": "935:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                          "typeString": "mapping(uint256 => struct Decentragram.Image storage ref)"
+                          "typeString": "mapping(uint256 => struct Formula.Image storage ref)"
                         }
                       },
                       "id": 85,
@@ -3707,7 +3707,7 @@
                       "src": "935:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_storage",
-                        "typeString": "struct Decentragram.Image storage ref"
+                        "typeString": "struct Formula.Image storage ref"
                       }
                     },
                     "nodeType": "Assignment",
@@ -3833,7 +3833,7 @@
                         "src": "956:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_type$_t_struct$_Image_$22_storage_ptr_$",
-                          "typeString": "type(struct Decentragram.Image storage pointer)"
+                          "typeString": "type(struct Formula.Image storage pointer)"
                         }
                       },
                       "id": 93,
@@ -3847,13 +3847,13 @@
                       "src": "956:58:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory",
-                        "typeString": "struct Decentragram.Image memory"
+                        "typeString": "struct Formula.Image memory"
                       }
                     },
                     "src": "935:79:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Image_$22_storage",
-                      "typeString": "struct Decentragram.Image storage ref"
+                      "typeString": "struct Formula.Image storage ref"
                     }
                   },
                   "id": 95,
@@ -4263,7 +4263,7 @@
                       "storageLocation": "memory",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                        "typeString": "struct Decentragram.Image"
+                        "typeString": "struct Formula.Image"
                       },
                       "typeName": {
                         "contractScope": null,
@@ -4274,7 +4274,7 @@
                         "src": "1278:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Image_$22_storage_ptr",
-                          "typeString": "struct Decentragram.Image"
+                          "typeString": "struct Formula.Image"
                         }
                       },
                       "value": null,
@@ -4294,7 +4294,7 @@
                       "src": "1300:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                        "typeString": "mapping(uint256 => struct Decentragram.Image storage ref)"
+                        "typeString": "mapping(uint256 => struct Formula.Image storage ref)"
                       }
                     },
                     "id": 125,
@@ -4319,7 +4319,7 @@
                     "src": "1300:11:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Image_$22_storage",
-                      "typeString": "struct Decentragram.Image storage ref"
+                      "typeString": "struct Formula.Image storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
@@ -4371,7 +4371,7 @@
                       "src": "1369:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                        "typeString": "struct Decentragram.Image memory"
+                        "typeString": "struct Formula.Image memory"
                       }
                     },
                     "id": 130,
@@ -4535,7 +4535,7 @@
                         "src": "1510:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                          "typeString": "struct Decentragram.Image memory"
+                          "typeString": "struct Formula.Image memory"
                         }
                       },
                       "id": 142,
@@ -4577,7 +4577,7 @@
                           "src": "1529:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 144,
@@ -4661,7 +4661,7 @@
                         "src": "1588:6:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Image_$22_storage_$",
-                          "typeString": "mapping(uint256 => struct Decentragram.Image storage ref)"
+                          "typeString": "mapping(uint256 => struct Formula.Image storage ref)"
                         }
                       },
                       "id": 152,
@@ -4686,7 +4686,7 @@
                       "src": "1588:11:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_storage",
-                        "typeString": "struct Decentragram.Image storage ref"
+                        "typeString": "struct Formula.Image storage ref"
                       }
                     },
                     "nodeType": "Assignment",
@@ -4701,13 +4701,13 @@
                       "src": "1602:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                        "typeString": "struct Decentragram.Image memory"
+                        "typeString": "struct Formula.Image memory"
                       }
                     },
                     "src": "1588:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Image_$22_storage",
-                      "typeString": "struct Decentragram.Image storage ref"
+                      "typeString": "struct Formula.Image storage ref"
                     }
                   },
                   "id": 155,
@@ -4743,7 +4743,7 @@
                           "src": "1662:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 159,
@@ -4772,7 +4772,7 @@
                           "src": "1675:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 161,
@@ -4801,7 +4801,7 @@
                           "src": "1695:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Image_$22_memory_ptr",
-                            "typeString": "struct Decentragram.Image memory"
+                            "typeString": "struct Formula.Image memory"
                           }
                         },
                         "id": 163,

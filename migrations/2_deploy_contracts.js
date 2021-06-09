@@ -1,5 +1,5 @@
-const Decentragram = artifacts.require("Decentragram");
+const Formula = artifacts.require("Formula");
 
 module.exports = function(deployer) {
-  deployer.deploy(Decentragram);
+  deployer.deploy(Formula);
 };

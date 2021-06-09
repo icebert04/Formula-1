@@ -3,7 +3,7 @@ import Web3 from 'web3';
 import Identicon from 'identicon.js';
 import './App.css';
 import './Mobile.css'
-import Decentragram from '../abis/Decentragram.json'
+import formula from '../abis/Formula.json'
 import Navbar from './Navbar'
 import Main from './Main'
 
@@ -38,9 +38,9 @@ class App extends Component {
       this.setState({ account: accounts[0] })
       //network ID
       const networkId = await web3.eth.net.getId()
-      const networkData = Decentragram.networks[networkId]
+      const networkData = formula.networks[networkId]
       if(networkData) {
-        const Formula = web3.eth.Contract(Decentragram.abi, networkData.address)
+        const Formula = web3.eth.Contract(formula.abi, networkData.address)
         this.setState({ Formula })
         const imagesCount = await Formula.methods.imageCount().call()
         this.setState({ imagesCount })
@@ -57,7 +57,7 @@ class App extends Component {
       })
         this.setState({ loading: false })
       } else {
-        window.alert('Decentragram contract not deployed to detected network')
+        window.alert('formula contract not deployed to detected network')
       }
     }
 
