@@ -12,7 +12,7 @@ class Main extends Component {
           <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '1000px' }}>
             <div className="content mr-auto ml-auto">
               <p>&nbsp;</p>
-              <h2>Share Image</h2>
+              <h2>Submit a Driver</h2>
               <form onSubmit={(event) => {
                 event.preventDefault()
                 const description = this.imageDescription.value
@@ -26,12 +26,15 @@ class Main extends Component {
                         type="text"
                         ref={(input) => { this.imageDescription = input }}
                         className="form-control"
-                        placeholder="Image description..."
+                        placeholder="description..."
                         required />
                   </div>
                 <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
               </form>
               <p>&nbsp;</p>
+
+              <h1>Here are the Drivers of Formula one</h1>
+                <p>Support them by sending a <b className="redtipped">tip</b></p>
                 <section className="Image-grid">
                 
                 { this.props.images.map((image, key) => {

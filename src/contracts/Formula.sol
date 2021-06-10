@@ -29,6 +29,10 @@ contract Formula {
     address payable author
   );
 
+    constructor() public {
+    name = "Formula";
+  }
+
   function uploadImage(string memory _imageHash, string memory _description) public {
     // Make sure the image hash exists
     require(bytes(_imageHash).length > 0);

@@ -5,6 +5,7 @@ import './App.css';
 import './Mobile.css'
 import formula from '../abis/Formula.json'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import Main from './Main'
 
 //Declare from package
@@ -113,7 +114,7 @@ class App extends Component {
       <div>
         <Navbar account={this.state.account} />
         { this.state.loading
-          ? <div id="loader" className="text-center mt-5"><p>Loading...</p></div>
+          ? <section id="loader-container"><div id="loader" className="text-center"><p>Loading...</p></div></section>
           : <Main
               images={this.state.images}
               captureFile={this.captureFile}
@@ -121,7 +122,9 @@ class App extends Component {
               tipImageOwner={this.tipImageOwner}
             />
           }
+      <Footer/>
       </div>
+      
     );
   }
 }
