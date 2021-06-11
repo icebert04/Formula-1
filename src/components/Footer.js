@@ -16,11 +16,11 @@ class Footer extends Component {
                         <p>Let us know at</p> 
                         
                         
-                    <h5>
+                    <div>
                     <a href="https://linkedin.com/">Linkedin</a>
                     <br/>
                     <a href="https://twitter.com/">Twitter</a>
-                    </h5>
+                    </div>
                         
                     
                         

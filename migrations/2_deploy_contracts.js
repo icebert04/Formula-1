@@ -1,5 +1,5 @@
-const Formula = artifacts.require("Formula");
+const formula = artifacts.require("formula");
 
 module.exports = function(deployer) {
-  deployer.deploy(Formula);
+  deployer.deploy(formula);
 };
