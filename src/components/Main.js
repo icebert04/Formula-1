@@ -26,7 +26,7 @@ class Main extends Component {
                         type="text"
                         ref={(input) => { this.imageDescription = input }}
                         className="form-control"
-                        placeholder="description..."
+                        placeholder="Description..."
                         required />
                   </div>
                 <button type="submit" className="btn btn-primary btn-block btn-lg">Upload!</button>
