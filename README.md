@@ -1,5 +1,7 @@
 # Formula-1 Pledge App
 
+![Verstappen](/images/)
+
 This is a blockchain app that focuses on Formula 1 drivers.
 
 > It is made under the `Ethereum Blockchain`. 
