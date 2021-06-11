@@ -12,7 +12,7 @@ class Footer extends Component {
                     <li>
                     <div>
                         
-                        <h3>want to contact us?</h3>
+                        <h3>Want to contact us?</h3>
                         <p>Let us know at</p> 
                         
                         
