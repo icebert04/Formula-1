@@ -5,6 +5,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0px;
+}
+
 a {
   text-decoration: none;
 }
@@ -28,6 +32,11 @@ a {
   margin-top: 50vh;
   color: #4a4a4a;
   font-weight: bold;
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .main {

@@ -12,10 +12,10 @@ class Navbar extends Component {
           <img src={photo} width="100" height="auto" className="d-inline-block align-top" alt="Formula one logo" />
         </a>
       </div>
-      <h2><b>Formula-1 Pledge to The Drivers</b></h2>
+      <h2 id="flavor"><b>Formula-1 Pledge to The Drivers</b></h2>
         <ul className="navbar-nav px-3">
-          <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">
-            <small className="text-secondary">
+          <li className="nav-item text-nowrap d-sm-block">
+            <small className="text-secondary d-none d-sm-none">
               <small id="account">{this.props.account}</small>
             </small>
             { this.props.account

@@ -1,4 +1,14 @@
 @media only screen and (max-width: 980px) {
+  ul {
+    margin-bottom: 45px;
+  }
+  footer {
+    padding: 2.5rem 1.4rem;
+  }
+  #flavor {
+    display: none;
+  }
+
   .Image-grid {
     display: grid;
     gap: 5rem;
@@ -6,5 +16,8 @@
   }
   footer {
     grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .main {
+    margin: 7rem 0 30rem 0;
   }
 }
