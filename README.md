@@ -1,6 +1,6 @@
 # Formula-1 Pledge App
 
-![Verstappen](/images/Verstappen-screenshot.png)
+![Verstappen](/src/images/Verstappen-screenshot.png)
 
 This is a blockchain app that focuses on Formula 1 drivers.
 
