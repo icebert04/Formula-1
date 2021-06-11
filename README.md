@@ -9,7 +9,7 @@ This is a blockchain app that focuses on Formula 1 drivers.
 
 > I also integrated `Metamask` as its designated wallet and payment system.
 
-> On the front-end, I used `Web3.js` and React for a helpful user interface.
+> On the front-end, I used `Web3.js` and `React` for a helpful user interface.
 
 
 
