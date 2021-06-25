@@ -11,6 +11,8 @@ This is a blockchain app that focuses on Formula 1 drivers.
 
 > On the front-end, I used `Web3.js` and `React` for a helpful user interface.
 
+This dApp can be used publicly for Formula 1 aficianados. 
+
 
 
 
